@@ -25,7 +25,7 @@
     </div>
 
     <div class="cell-play">
-      <span class="label">Play :</span>
+      <span class="label">Jeu :</span>
       <div class="button-group" aria-label="Choix du camp">
         <button type="button" class="mode-btn selected" data-mode="white" aria-pressed="true"
                 title="Jouer les Blancs contre Stockfish"><img src="./pieces/alpha/wK.svg" alt="Blancs"></button>
@@ -53,7 +53,7 @@
     </div>
 
     <div class="cell-start">
-      <span class="label">Start :</span>
+      <span class="label">Trait :</span>
       <div class="button-group">
         <button type="button" id="start-white" class="start-btn white" aria-pressed="false"
                 title="Les Blancs ont le trait : figer la position et commencer"></button>
@@ -61,7 +61,7 @@
                 title="Les Noirs ont le trait : figer la position et commencer"></button>
         <span class="dotted-sep" aria-hidden="true"></span>
         <button type="button" id="zone" class="zone-btn" aria-pressed="false"
-                title="Winning Zone : colore les cases où la pièce choisie gagne, annule ou perd (analyse, 7 pièces au plus)">
+                title="Winning Zone (mode analyse) : 7 pièces au plus, tablebases (vert = gain, jaune = nulle, rose = perte) ; au-delà, évaluation de Stockfish sur les cases accessibles">
           <span class="z-win">+</span><span class="z-none"></span><span class="z-draw">=</span><span class="z-loss">&minus;</span>
         </button>
       </div>
