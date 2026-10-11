@@ -67,12 +67,30 @@ export const positions = [
         fen: '8/8/8/4k3/8/8/8/K6R w - - 0 1'
     },
 
+     {
+        path: ['Mats Élémentaires', 'fig: RFF vs R'],
+        title: 'Roi et 2 Fous contre Roi',
+        fen: '8/8/8/8/8/4k3/8/B3K2B w - - 0 1'
+    },
+
+     {
+        path: ['Mats Élémentaires', 'fig: RFC vs R'],
+        title: 'Roi Fou et Cavalier contre Roi',
+        fen: '8/8/8/4k3/8/8/8/N3K2B w - - 0 1'
+    },
+
     // ---------- Finales de Pions ----------
 
     {
         path: ['Finales de Pions', 'fig: RP vs R'],
         title: 'Roi et Pion contre Roi — opposition',
         fen: '8/8/8/3k4/8/3K4/3P4/8 w - - 0 1'
+    },
+
+     {
+        path: ['Finales de Pions', 'fig: RP vs RP'],
+        title: 'Roi et Pion contre Roi et Pion — Trébuchet',
+        fen: '8/8/8/3p1K2/1k1P4/8/8/8 w - - 0 1'
     },
 
     {
@@ -123,9 +141,54 @@ export const positions = [
     // ---------- Finales de Tours ----------
 
     {
+        path: ['Finales de Tours', 'fig: RT vs RP'],
+        title: 'Zugzwang de Réti (1928)',
+        fen: '8/4K3/8/3pk3/3R4/8/8/8 w - - 0 1'
+    },
+
+    {
         path: ['Finales de Tours', 'fig: RTP vs RT', 'Pion-Tour', 'Pion en 7ème rangée'],
         title: 'Position de Lucena',
         fen: '1K1k4/1P6/8/8/8/8/r7/2R5 w - - 0 1'
+    },
+
+    
+    // ---------- Finales de Damess ----------
+
+    {
+        path: ['Finales de Dames', 'fig: RD vs RP', 'Pion-Tour'],
+        title: 'Attaque verticale',
+        fen: 'Q7/8/8/1K6/8/8/pk6/8 w - - 0 1'
+    },
+
+    {
+        path: ['Finales de Dames', 'fig: RD vs RP', 'Pion-Tour'],
+        title: 'Attaque horizontale',
+        fen: 'Q7/8/8/8/8/8/pk2K3/8 w - - 0 1'
+    },
+
+    {
+        path: ['Finales de Dames', 'fig: RD vs RP', 'Pion-Fou', 'Roi Petit côté'],
+        title: 'Attaque verticale',
+        fen: 'Q7/8/8/8/1K6/8/1kp5/8 w - - 0 1'
+    },
+
+    {
+        path: ['Finales de Dames', 'fig: RD vs RP', 'Pion-Fou', 'Roi Petit côté'],
+        title: 'Attaque horizontale',
+        fen: 'Q7/8/8/8/8/8/1kp1K3/8 w - - 0 1'
+    },
+
+    {
+        path: ['Finales de Dames', 'fig: RD vs RP', 'Pion-Fou', 'Roi Grand côté'],
+        title: 'Attaque verticale',
+        fen: 'Q7/8/8/8/1K6/8/2pk4/8 w - - 0 1'
+    },
+
+    {
+        path: ['Finales de Dames', 'fig: RD vs RP', 'Pion-Fou', 'Roi Grand côté'],
+        title: 'Attaque horizontale',
+        fen: 'Q7/8/8/8/8/8/2pk2K1/8 w - - 0 1'
     }
 
     // ---------- Finales de Cavaliers, de Fous, de Dames, de Pièces : à compléter ----------
