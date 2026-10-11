@@ -17,8 +17,17 @@
   <!-- ============ COMMANDES (haut de page) ============ -->
   <section class="controls">
 
+    <div class="cell-library">
+      <div class="library-anchor">
+        <button type="button" id="library-btn" class="library-btn" aria-haspopup="true" aria-expanded="false"
+                title="Bibliothèque de positions"><img src="./images/library.svg" alt="Bibliothèque de positions"></button>
+        <div id="library-menu" class="library-menu" hidden></div>
+      </div>
+      <span id="library-title" class="library-title"></span>
+    </div>
+
     <div class="cell-fen">
-      <label for="fen">FEN :</label>
+      <label for="fen" class="label">FEN :</label>
       <input id="fen" type="text" spellcheck="false" autocomplete="off" autocapitalize="off"
              placeholder="8/8/8/8/8/8/8/8 w - - 0 1" aria-label="Code FEN">
       <div id="message" class="message" role="status" aria-live="polite"></div>
@@ -27,7 +36,7 @@
     <div class="cell-play">
       <span class="label">Jeu :</span>
       <div class="button-group" aria-label="Choix du camp">
-        <button type="button" class="mode-btn selected" data-mode="white" aria-pressed="true"
+        <button type="button" class="mode-btn" data-mode="white" aria-pressed="false"
                 title="Jouer les Blancs contre Stockfish"><img src="./pieces/alpha/wK.svg" alt="Blancs"></button>
         <button type="button" class="mode-btn" data-mode="black" aria-pressed="false"
                 title="Jouer les Noirs contre Stockfish"><img src="./pieces/alpha/bK.svg" alt="Noirs"></button>
@@ -80,10 +89,6 @@
           <div id="zone-layer" class="zone-layer" aria-hidden="true"></div>
           <div class="file-labels"></div>
         </div>
-        <div class="turn-indicators" aria-label="Camp au trait">
-          <span id="turn-white" class="turn-circle white-circle" title="Blancs au trait"></span>
-          <span id="turn-black" class="turn-circle black-circle" title="Noirs au trait"></span>
-        </div>
       </div>
 
       <div class="navigation">
@@ -98,7 +103,7 @@
       <div id="moves" aria-label="Coups joués"></div>
 
       <div class="notation-control">
-        <label for="notation">Notation :</label>
+        <label for="notation" class="label">Notation :</label>
         <select id="notation">
           <option value="french">R D T F C</option>
           <option value="figurines" selected>♔♕♖♗♘</option>
