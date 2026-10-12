@@ -67,6 +67,12 @@ export const positions = [
         fen: '8/8/8/4k3/8/8/8/K6R w - - 0 1'
     },
 
+    {
+        path: ['Mats Élémentaires', 'fig: RFC vs R'],
+        title: 'Roi Fou et Cavalier contre Roi',
+        fen: '8/8/8/4k3/8/8/8/N3K2B w - - 0 1'
+    },
+
     // ---------- Finales de Pions ----------
 
     {
@@ -128,7 +134,6 @@ export const positions = [
         fen: '1K1k4/1P6/8/8/8/8/r7/2R5 w - - 0 1'
     },
 
-    
     // ---------- Finales de Dames ----------
 
     {
