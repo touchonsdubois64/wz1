@@ -26,9 +26,16 @@
       <span id="library-title" class="library-title"></span>
     </div>
 
+    <div class="cell-pgn">
+      <label for="pgn" class="label">PGN :</label>
+      <input id="pgn" class="text-field" type="text" spellcheck="false" autocomplete="off" autocapitalize="off"
+             placeholder="1. e4 e5 2. Nf3 Nc6 3. Bb5 a6" aria-label="Texte PGN">
+      <div id="pgn-message" class="message" role="status" aria-live="polite"></div>
+    </div>
+
     <div class="cell-fen">
       <label for="fen" class="label">FEN :</label>
-      <input id="fen" type="text" spellcheck="false" autocomplete="off" autocapitalize="off"
+      <input id="fen" class="text-field" type="text" spellcheck="false" autocomplete="off" autocapitalize="off"
              placeholder="8/8/8/8/8/8/8/8 w - - 0 1" aria-label="Code FEN">
       <div id="message" class="message" role="status" aria-live="polite"></div>
     </div>

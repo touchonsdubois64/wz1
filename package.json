@@ -7,7 +7,7 @@
     "vite": "^8.2.2"
   },
   "scripts": {
-    "test": "node --test test/fen.test.mjs",
+    "test": "node --test test/fen.test.mjs test/pgn.test.mjs",
     "dev": "vite",
     "build": "vite build"
   }
