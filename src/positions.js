@@ -126,6 +126,15 @@ export const positions = [
         path: ['Finales de Tours', 'fig: RTP vs RT', 'Pion-Tour', 'Pion en 7ème rangée'],
         title: 'Position de Lucena',
         fen: '1K1k4/1P6/8/8/8/8/r7/2R5 w - - 0 1'
+    },
+
+    
+    // ---------- Finales de Dames ----------
+
+    {
+        path: ['Finales de Dames', 'fig: RD vs RP', 'Pion-Tour en 7ème', 'Attaque verticale'],
+        title: 'Attaque verticale',
+        fen: 'Q7/8/8/8/1K6/8/pk6/8 w - - 0 1'
     }
 
     // ---------- Finales de Cavaliers, de Fous, de Dames, de Pièces : à compléter ----------
